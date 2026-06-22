@@ -2,14 +2,14 @@
 
 	<style type="text/css">
 		.icon__cat {
-			fill: #9F8BE7;
+			fill: #4100fc;
 		}
 		.icon__eyes {
 			fill: #ffffff;
 		}
 		@media (prefers-color-scheme: dark) {
 			.icon__cat {
-			fill: #DDF160;
+			fill: #fd1800;
 			}
 			.icon__eyes {
 				fill: #000000;

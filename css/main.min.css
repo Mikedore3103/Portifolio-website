@@ -105,10 +105,10 @@
   --base-shade--light: #e0dddb;
   --base-opp--light: #161616;
   --base-opp-tint--light: #1C1C1C;
-  --accent--light: #9F8BE7;
-  --accent-rgb--light: 159, 139, 231;
-  --additional--light: #DDF160;
-  --additional-rgb--light: 221, 241, 96;
+  --accent--light: #4100fc;
+  --accent-rgb--light: 65, 0, 252;
+  --additional--light: #fd1800;
+  --additional-rgb--light: 253, 24, 0;
   --neutral-transparent--light: rgba(255, 255, 255, 0.3);
   --st-bright--light: #161616;
   --st-medium--light: #7C7C7C;
@@ -142,10 +142,10 @@
   --base-shade--dark: #0a0a0a;
   --base-opp--dark: #FAF7F6;
   --base-opp-tint--dark: #ffffff;
-  --accent--dark: #DDF160;
-  --accent-rgb--dark: 221, 241, 96;
-  --additional--dark: #9F8BE7;
-  --additional-rgb--dark: 159, 139, 231;
+  --accent--dark: #fd1800;
+  --accent-rgb--dark: 253, 24, 0;
+  --additional--dark: #4100fc;
+  --additional-rgb--dark: 65, 0, 252;
   --neutral-transparent--dark: rgba(0, 0, 0, 0.3);
   --st-bright--dark: #FFFFFF;
   --st-medium--dark: #646464;
@@ -179,8 +179,8 @@
   --pt-t-dark-bright: #161616;
   --pt-st-light-bright: #FFFFFF;
   --pt-st-dark-bright: #161616;
-  --pt-purple-rgb: 159, 139, 231;
-  --pt-purple-dark-rgb: 33, 10, 113;
+  --pt-purple-rgb: 65, 0, 252;
+  --pt-purple-dark-rgb: 65, 0, 252;
   --nl-white: #ffffff;
   --nl-black: #000000
 }
@@ -6636,7 +6636,7 @@ form textarea:required:valid {
 .mxd-menu__link {
   position: relative;
   z-index: 2;
-  color: #adff2f;
+  color: #fd1800;
   text-decoration: none;
   font-size: 4rem
 }
@@ -11896,7 +11896,7 @@ form textarea:required:valid {
   height: 1rem;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background-color: #a1f21e
+  background-color: #fd1800
 }
 
 .mxd-hero__mark .mark-text {
