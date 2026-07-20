@@ -107,7 +107,7 @@
   --base-opp-tint--light: #1C1C1C;
   --accent--light: #4100fc;
   --accent-rgb--light: 65, 0, 252;
-  --additional--light: #fd1800;
+  --additional--light: #4100fc;
   --additional-rgb--light: 253, 24, 0;
   --neutral-transparent--light: rgba(255, 255, 255, 0.3);
   --st-bright--light: #161616;
@@ -142,9 +142,9 @@
   --base-shade--dark: #0a0a0a;
   --base-opp--dark: #FAF7F6;
   --base-opp-tint--dark: #ffffff;
-  --accent--dark: #fd1800;
+  --accent--dark: #4100fc;
   --accent-rgb--dark: 253, 24, 0;
-  --additional--dark: #4100fc;
+  --additional--dark: #220088;
   --additional-rgb--dark: 65, 0, 252;
   --neutral-transparent--dark: rgba(0, 0, 0, 0.3);
   --st-bright--dark: #FFFFFF;
@@ -4866,18 +4866,18 @@ form textarea:required:valid {
   justify-content: center;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  width: 4.6rem;
-  aspect-ratio: 1/1;
-  padding: 0.55rem;
+  width: 120px;
+  aspect-ratio: 0;
+  padding: 2px;
   overflow: hidden;
-  border-radius: 50%;
-  background-color: var(--base-opp)
+  border-radius: 0%;
+  background-color: none
 }
 
 @media only screen and (min-width:768px) {
   .mxd-logo__image {
-    width: 5.6rem;
-    padding: 0.7rem
+    width: 120px;
+    padding: 1px
   }
 }
 
@@ -6636,7 +6636,7 @@ form textarea:required:valid {
 .mxd-menu__link {
   position: relative;
   z-index: 2;
-  color: #fd1800;
+  color: #4100fc;
   text-decoration: none;
   font-size: 4rem
 }
@@ -11896,7 +11896,7 @@ form textarea:required:valid {
   height: 1rem;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background-color: #fd1800
+  background-color: #4100fc
 }
 
 .mxd-hero__mark .mark-text {
