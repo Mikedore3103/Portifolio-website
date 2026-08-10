@@ -213,6 +213,48 @@
           </div>
         </div>
       </div>
+      <script>
+        (function () {
+          function setActive() {
+            document.querySelectorAll('.submenu__item.active, .main-menu__item.active').forEach(function(el){ el.classList.remove('active'); });
+
+            var path = window.location.pathname || '';
+            var page = (path.substring(path.lastIndexOf('/') + 1) || 'index.html').toLowerCase();
+
+            function normalize(h){ if(!h) return ''; return h.split('#')[0].split('?')[0]; }
+
+            var matched = false;
+            document.querySelectorAll('.submenu__item a, .main-menu__item > a').forEach(function(a){
+              var href = normalize(a.getAttribute('href'));
+              if(href === '') href = 'index.html';
+              href = href.toLowerCase();
+              if(href && href === page){
+                var li = a.closest('.submenu__item') || a.closest('.main-menu__item');
+                if(li) li.classList.add('active');
+                var parent = li && li.closest('.main-menu__item');
+                if(parent) parent.classList.add('active');
+                matched = true;
+              }
+            });
+
+            if(!matched && (page === '' || page.indexOf('index') === 0)){
+              var home = document.querySelector('.submenu__item a[href*="index.html"]');
+              if(home){
+                var li = home.closest('.submenu__item');
+                if(li) li.classList.add('active');
+                var p = li && li.closest('.main-menu__item');
+                if(p) p.classList.add('active');
+              }
+            }
+          }
+
+          if(document.readyState === 'loading'){
+            document.addEventListener('DOMContentLoaded', setActive);
+          } else {
+            setActive();
+          }
+        })();
+      </script>
       <!-- Main Navigation End -->
 
     </nav>
