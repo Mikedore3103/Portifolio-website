@@ -73,5 +73,60 @@ window.BLOG_POSTS = [
     alt: "Branded digital experience",
     excerpt: "A memorable digital product expresses its brand in the details, not just in the logo.",
     body: `<div class="mxd-article__block"><p class="t-large mxd-article__excerpt">Branding shapes how a digital experience sounds, looks, and behaves. It is the thread that turns separate screens into one recognisable experience.</p><p>A logo and colour palette are only the beginning. Voice, imagery, typography, and interaction should work together to reinforce the same promise.</p></div><div class="mxd-article__block"><h3>Turn values into decisions</h3><p>Translate brand values into practical interface choices. A confident brand may use direct language and bold contrast; a warm brand may use generous spacing and encouraging feedback.</p></div><div class="mxd-article__block"><h3>Be consistent where it matters</h3><p>Consistency makes a product familiar, but it should never make it rigid. Keep the core system stable while giving important moments their own character.</p></div>`
+  },
+  {
+    slug: "frontend-user-journeys",
+    title: "Frontend innovations and user journeys",
+    date: "November 22, 2024",
+    readTime: "4 min. read",
+    tags: ["Frontend", "UX"],
+    image: "img/blog/preview/1000x1250_prv-01.webp",
+    alt: "Frontend interface design",
+    excerpt: "Frontend choices have the power to make every stage of a user journey feel smooth and intentional.",
+    body: `<div class="mxd-article__block"><p class="t-large mxd-article__excerpt">A thoughtful frontend turns a plan into a journey people can actually use. Performance, accessibility, and feedback are all part of the design.</p><p>Innovative interfaces are most useful when they remove friction rather than adding novelty for its own sake.</p></div><div class="mxd-article__block"><h3>Build for real behaviour</h3><p>Consider slow connections, small screens, keyboard navigation, and interrupted tasks early. These constraints lead to more resilient and welcoming experiences.</p></div><div class="mxd-article__block"><h3>Measure the moments that matter</h3><p>Track whether visitors can complete their goals, then use that evidence to refine the flow. A small improvement to a key step can have a larger impact than a visual overhaul.</p></div>`
+  },
+  {
+    slug: "branding-digital-experiences-preview",
+    title: "Branding in creating digital experiences",
+    date: "November 18, 2024",
+    readTime: "4 min. read",
+    tags: ["Branding", "Digital experience"],
+    image: "img/blog/preview/1000x1250_prv-02.webp",
+    alt: "Digital branding artwork",
+    excerpt: "A coherent brand makes a digital experience easier to recognise, trust, and remember.",
+    body: `<div class="mxd-article__block"><p class="t-large mxd-article__excerpt">Digital branding lives in every interaction, from the first headline to the confirmation after a form is sent.</p><p>When visual language and product behaviour share the same character, visitors get a more memorable and credible experience.</p></div><div class="mxd-article__block"><h3>Design beyond the logo</h3><p>Use typography, imagery, voice, and interface details to carry the brand. These repeated signals create familiarity over time.</p></div><div class="mxd-article__block"><h3>Make every touchpoint count</h3><p>Empty states, errors, and loading screens are all opportunities to reinforce a brand promise with clarity and care.</p></div>`
+  },
+  {
+    slug: "engaging-digital-workshops",
+    title: "Elevating digital workshops with engaging design",
+    date: "November 15, 2024",
+    readTime: "5 min. read",
+    tags: ["Digital workshop", "Interactive design", "UI"],
+    image: "img/blog/preview/1000x1250_prv-03.webp",
+    alt: "Collaborative digital workshop",
+    excerpt: "A digital workshop works best when participation feels simple, focused, and rewarding for everyone involved.",
+    body: `<div class="mxd-article__block"><p class="t-large mxd-article__excerpt">A successful online workshop is designed, not merely hosted. Its structure gives people confidence to contribute and a clear path from discussion to decisions.</p><p>Before the session, make the purpose, agenda, and tools obvious. During it, use simple visual prompts to keep everyone aligned.</p></div><div class="mxd-article__block"><h3>Create space for participation</h3><p>Alternate between listening, reflecting, and making. Short activities encourage contributions from people who may not speak up in a large group.</p></div><div class="mxd-article__block"><h3>End with a visible outcome</h3><p>Summarise decisions, owners, and next steps in a shared place. Participants should leave knowing that their time moved the work forward.</p></div>`
+  },
+  {
+    slug: "frontend-innovations-interactive-journeys",
+    title: "How frontend innovations shape interactive user journeys",
+    date: "November 22, 2024",
+    readTime: "4 min. read",
+    tags: ["Frontend", "UX"],
+    image: "img/blog/1000x1250_psec-01.webp",
+    alt: "Interactive user journey",
+    excerpt: "Modern frontend techniques can make a user journey responsive without making it complicated.",
+    body: `<div class="mxd-article__block"><p class="t-large mxd-article__excerpt">Frontend innovation matters when it makes a product clearer, faster, or more accessible for the person using it.</p><p>Thoughtful state changes, progressive loading, and well-timed feedback can make a complex journey feel calm and predictable.</p></div><div class="mxd-article__block"><h3>Reveal complexity gradually</h3><p>Show only what a visitor needs for the current decision. Progressive disclosure keeps interfaces approachable while preserving depth for people who need it.</p></div><div class="mxd-article__block"><h3>Respect performance</h3><p>Fast responses are part of the interaction design. Optimise the critical path first, then enhance the experience for capable devices.</p></div>`
+  },
+  {
+    slug: "responsive-digital-workshops",
+    title: "Digital workshops with engaging and responsive design",
+    date: "November 20, 2024",
+    readTime: "5 min. read",
+    tags: ["Digital workshop", "Interactive design", "UI"],
+    image: "img/blog/1000x1250_psec-02.webp",
+    alt: "Responsive workshop interface",
+    excerpt: "Responsive workshop design helps every participant contribute, whatever device they use.",
+    body: `<div class="mxd-article__block"><p class="t-large mxd-article__excerpt">Responsive workshop tools make collaboration possible across screens, locations, and different ways of working.</p><p>Design the activity around the outcome, then make the interface flexible enough for participants to engage from a laptop, tablet, or phone.</p></div><div class="mxd-article__block"><h3>Prioritise the shared task</h3><p>Keep controls and instructions close to the activity. When participants always know what to do next, the group can focus on the conversation.</p></div><div class="mxd-article__block"><h3>Design for inclusion</h3><p>Readable type, clear contrast, captions, and forgiving controls make collaboration more accessible and productive for everyone.</p></div>`
   }
 ];
