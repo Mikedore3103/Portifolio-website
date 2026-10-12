@@ -1,4 +1,4 @@
-/*! ------------------------------------------------
+﻿/*! ------------------------------------------------
  * Project Name: Rayo - Digital Agency & Personal Portfolio HTML Template
  * Project Description: Elevate your digital presence with Rayo - dynamic and stylish HTML template designed for creative agencies and personal brands. With modern layouts, smooth interactions and a polished aesthetic, Rayo template helps showcase projects, services and expertise with clarity and impact.
  * Tags: mix_design, resume, portfolio, personal page, cv, template, one page, responsive, html5, css3, creative, clean, agency, studio 
@@ -23296,3 +23296,5 @@ form textarea:required:valid {
     font-size: 3.4rem
   }
 }
+
+[color-scheme=light] .mxd-logo__dark{display:none!important}[color-scheme=dark] .mxd-logo__light{display:none!important}
